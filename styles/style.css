@@ -347,6 +347,9 @@
   .footer__title {
     text-shadow: 2px 2px 0 var(--accent-color-title);
   }
+  .section-advice {
+    gap: 15.3px;
+  }
 }
 
 @media (max-width: 767px) {
