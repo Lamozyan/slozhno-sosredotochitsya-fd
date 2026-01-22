@@ -19,4 +19,5 @@
   --display-header-decor: inline-flex;
   --color-section-title: #FF0070;
   --decor-color: #FF0070;
+  --decor-color-opasity: rgba(255, 0, 112, 0.4);
 }

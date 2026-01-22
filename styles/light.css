@@ -19,6 +19,7 @@
   --display-header-decor: none;
   --color-section-title: #353430;
   --decor-color: #353430;
+  --decor-color-opasity: rgba(53, 52, 48, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -33,15 +34,6 @@
     --display-header-decor: none;
     --color-section-title: #353430;
     --decor-color: #353430;
-  }
-}
-
-@media (max-width: 1023px) {
-  .header__title {
-    text-shadow: 4px 4px 0 var(--accent-color-title);
-  }
-
-  .footer__title {
-    text-shadow: 2px 2px 0 var(--accent-color-title);
+    --decor-color-opasity: rgba(53, 52, 48, 0.4);
   }
 }
